@@ -1,0 +1,352 @@
+
+body{
+  background-color: rgb(250, 250, 246);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #004080;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  color: rgb(250, 243, 243);
+  font-size: 20px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  color: rgb(255, 252, 252);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: rgb(0, 60, 255);
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.left {
+  width: 50%;
+  text-align: left;
+}
+
+.right {
+  width: 50%;
+}
+
+.name {
+  font-size: 36px;
+  margin: 0;
+}
+
+.profession {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.degree {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.resume-link {
+  color: rgb(0, 0, 255);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume-link:hover {
+  color: rgb(255, 0, 0);
+  transform: scale(1.1);
+}
+
+.profile-picture {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.profile-picture:hover {
+  transform: scale(1.1);
+}
+/* adding the cards here: eduction and personal information*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.left {
+  width: 40%;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.right {
+  width: 40%;
+  text-align: left;
+}
+
+.personal-info-card, .education-card {
+  width: 100%;
+  padding: 30px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.education-item {
+  margin-top: 50px;
+}
+
+.education-text {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+}
+
+.card-text {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+}
+/*adding one button to download cv*/
+.download-cv {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(32, 201, 151);
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(0, 170, 127);
+  transform: translateY(-2px);
+}
+
+/*adding progress bar css*/
+
+.skills {
+  margin-top: 50px;
+  text-align:center;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.skill-name {
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.skill-item {
+  display: inline-block;
+  width: calc(25% - 20px);
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.progress {
+  width: 60px;
+  height: 5px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px auto;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: rgb(32, 201, 151);
+}
+
+
+.percentage {
+  font-size: 18px;
+}
+
+/*adding icons interests here*/
+
+.interests-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.interest {
+  display: inline-block;
+  margin: 20px;
+  font-size: 36px;
+  color: rgb(32, 201, 151);
+}
+
+.interest p {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+/*her is the internship section*/
+.experiences-section {
+  padding: 40px;
+}
+
+.experience {
+  margin-bottom: 40px;
+}
+
+.experience h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.experience p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(32, 201, 151);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/*here we are adding cards like widgets for live projects we are doing*/
+
+.live-projects-card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  width: 45%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.project a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/*contact us from here*/
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#signup-form input,
+#signup-form textarea {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#signup-form button {
+  width: 300px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+#signup-form button:hover {
+  cursor: pointer;
+}
